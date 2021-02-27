@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+::before::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    height: 67px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(125, 125, 125, 0.1);
+}
+.headUp {
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logoUp{
+    display: flex;
+    margin: 23px 0 20px 0;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 19px;
+    height: 19px;
+    margin-right: 14px;
+}
+.rectangleSmall {
+    width: 5.7px;
+    height: 5.68px;
+    background: #4385DC;
+}
+.rectLeft{
+    margin-right: 3px;
+}
+.catalog {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: bold;
+}
+.catalog p {
+    margin: 0;
+    padding: 0;
+}
+.signAdd {
+    width: 284px;
+    margin: 14px 0 15px 0;
+    display: flex;
+}
+.StyleWindow{
+    color: #333333;
+    font-size: 16px;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+}
+.languge {
+    width: 85px;
+    padding: 10px 10px 10px 10px;
+    margin-right: 14px;
+    height: 38px;
+}
+.styleAdd {
+    background: #4385DC;
+    border: 1px solid #4E79B3;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.addSmth {
+    width: 185px;
+    height: 38px;
+}
+.mainPage {
+    width: 1100px;
+    margin: 0 auto;
+}
+.serchFilters {
+    margin: 38px 0 39px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.search {
+    width: 550px;
+    height: 38px;
+    padding: 11px 32px;
+    color: #BDBDBD;
+    font-size: 14px;
+    background-image: url(/img/search.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 11px 11px;
+}
+.Location {
+    width: 205px;
+    height: 38px;
+    padding: 10px 12px;
+    color: #333333;
+    font-size: 14px;
+}
+.searchSmth {
+    width: 90px;
+    height: 38px;
+    padding: 11px 25px;
+    font-size: 14px;
+    border: 1px solid #4E79B3;
+}
+option{
+    padding: 0;
+    margin: 0;
+}
+.bookmark {
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 42px;
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+}
+.bookmark a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.bookmark a:hover{
+    color: #4385DC;
+    border-bottom: 4px solid #4385DC;
+}
+.bookmark div {
+    margin-right: 28px;
+    padding-bottom: 7px;
+}
+.styleBlocks {
+    width: 1100px;
+    height: 316px;
+    background-color: #ffffff;
+    border: 1px solid #E0E0E0;
+}
+.positionOne{
+    margin-bottom: 25px;
+}
+.positionTwo{
+    margin-bottom: 24px;
+}
+.blockOne {
+    display: flex;
+}
+.leftSide{
+    padding: 22px 0 71px 25px;
+}
+.leftSide img{
+    width: 403px;
+}
+.rightSide {
+    padding: 0 33px
+}
+.labelOnline{
+    position: relative;
+    top: 20px;
+    left: 567px;
+    font-size: 14px;
+    color: #27AE60;
+    font-weight: bold;
+}
+.titleBlock {
+    display: flex;
+    align-items: flex-end;
+}
+.titleBlock p {
+    margin: 0;
+    color: #333333;
+    font-size: 18px;
+    margin-right: 13px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.titleBlock a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #005DE8;
+}
+.tagBlockSearch {
+    display: flex;
+    padding: 10px 0 14px 0;
+}
+.tagBlockSearch a {
+    color: #193961;
+    font-size: 14px;
+    margin: 0;
+    text-decoration: none;
+    margin-right: 4px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.textInBlock {
+    height: 84px;
+    width: 607px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.textInBlock p {
+    font-size: 16px;
+    margin: 0;
+    color: #4F4F4F;
+    line-height: 1.3em;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+.textInBlock a {
+    color:cornflowerblue;
+}
+.lastText {
+    margin-top: 17px;
+}
+.someText {
+    color: #828282;
+    padding-bottom: 6px;
+    padding-top: 1px;
+    font-size: 12px;
+    margin: 0;
+}
+.linkBlock {
+    display: flex;
+}
+.nameLink{
+    margin: 0 9px 10px 0 ;
+}
+.nameLink p {
+    color: #333333;
+    margin: 0;
+    padding: 3px 0;
+    font-size: 15px;
+}
+.link a {
+    text-decoration: none;
+    color: #005DE8;
+    font-size: 14px;
+}
+.link p{
+    margin: 0;
+    padding-bottom: 7px;
+}
+.languageText {
+    margin: 0;
+    color: #333333;
+    letter-spacing: -1px;
+    padding-top: 3px;
+}
+.dotted {
+    width: 1100px;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+.dotted p{
+    margin: 0;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.headDown{
+    width: 100%;
+    height: 67px;
+    background: #FFFFFF;
+    border-top: rgba(125, 125, 125, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.infoFooter{
+    display: flex;
+}
+.infoFooter p {
+    margin: 0;
+    padding-right: 25px;
+}
+.infoFooter a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 12px;
+}
+.catalFooter p {
+    margin: 0;
+    font-size: 13px;
+}
