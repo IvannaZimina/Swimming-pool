@@ -5,7 +5,7 @@ Create landing-page (web layout only).
 HTML, CSS, Pixel perfect.
 
 ## Description
-There was practiced coding in HTML and using different styles and Pixel perfect plugin in browser to match the origin design. There was implemented blend-mode for images and autoresize layout.
+Coding in HTML and using custom styles and Pixel perfect plugin in browser to match the origin design was practices. The blend-mode for images and auto-resize layout was implemented.
 
 ## Environment
 Clone project to your machine. Use LiveServer plugin in VS code to run web-app.
